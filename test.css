@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+
+
+
+color: #333333;
+}
+body{
+    display: block;
+    font-family: 'PT Sans Caption', sans-serif;
+   margin: 0 auto;
+    align-items: center;
+   
+      
+    }
+a{
+    text-decoration: none;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1120px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;    
+    margin-top: 30px;
+}
+.header_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.header_left{
+    margin: 1px 0 -10px 0;
+}
+.header_left img{
+    width: 400px;
+}
+
+.header_phone{
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+.header_phone > a{
+    color: #333333;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.header_phone img{
+    
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    margin-right: 8px;  
+
+}
+nav{
+    margin-top: 20px;
+}
+nav > ul {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;    
+    
+}
+nav li{
+    border-right: 1px solid rgb(204, 203, 203);
+}
+ul.submenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: 10px;
+    box-shadow:  0px -1px 37px -16px #8d8d8d;
+    color: teal;
+    
+}
+.submenu li{
+    padding: 5px 50px 5px 10px;
+    border:none;    
+}
+.submenu li a{
+    color: #333333;   
+}
+nav li a:hover{   
+    font-weight:bold;
+}
+nav > ul > li >a{
+    color: #111111;
+    padding: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+} 
+ul >  li:hover > ul.submenu {
+    display: block;    
+}
+main{
+    margin: 0 auto;
+     width: 80%;
+    max-width: 1160px;
+    /* height: 100px; */
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.banner_wrapper {
+    /* background-color: yellow; */
+    display: flex;
+    padding: 20px;
+}
+img {
+   
+ width: 100%;
+ margin: 0 auto;
+}
+.zayavki{
+    display: flex;
+}
+.ban{
+    display: flex;
+    flex: 1 1 calc(33% ); 
+    height: 250px;
+    flex-wrap: nowrap;
+}
+.item {
+    flex: 1 1 calc(33% ); 
+    flex: auto;
+    margin: 20px;
+    box-sizing:border-box;
+    text-align:center;
+    border: 2px solid rgb(206, 203, 203);
+    border-radius: 5px;
+    width:calc( ( 100% - 40px ) / 3 );   
+        
+}
+
+
+.item:hover{
+    background: #EFF6FF;
+    border: 1px solid #29ABE2;    
+}
+.item img{
+    height: 70px;
+    margin-top: 10px;
+    text-align:center;   
+}
+p {
+    font-family: PT Sans Caption;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+}
+.bold{
+    font-family: PT Sans Caption;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 28px;
+color: #333333;
+}
+
+.uslugi{
+    width: 740px;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 15px;
+   margin-top: 20px;
+}
+.main_text p{
+    margin-top: 15px;
+    text-align: left;
+}
+.uslugi_column{
+    margin-top: 45px;
+    /* height: 100px; */
+    /* background-color: rgb(102, 63, 63); */
+    display: flex;    
+}
+.uslugi_column p{
+    font-weight: bold;
+    text-align: left;
+    line-height: 30px;
+}
+.u_colm p:hover{
+    color: #0050B2;
+}
+.u_colm1{
+    width: 25%;
+}
+.u_colm{
+    width: 37.5%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    height: 330px;
+    background: #76767A;
+    margin-top: 40px;
+}
+.bottom_right{
+    padding-top: 10px;
+    padding-right: 20px;    
+}
+.bottom_left{
+    margin-left: 75px;
+    margin-top: 22px;    
+}
+.bottom_left p, a{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: PT Sans Caption;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+}
+.bottom_left img{
+    width: 15px;
+    height: 15px;
+    /* padding-top: 5px;*/
+    margin-right: 1px; 
+}
+.bottom_left .uslugi_bold{
+    font-weight: 600;
+}
+.footer{
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(131, 130, 130);
+}
